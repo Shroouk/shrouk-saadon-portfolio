@@ -1,0 +1,120 @@
+
+ul.experiences li {
+    position: relative;
+    /* so that pseudoelements are positioned relatively to their "li"s*/
+    /* use padding-bottom instead of margin-bottom.*/
+    margin-bottom: 0;
+    /* This overrides previously specified margin-bottom */
+    padding-bottom: 3em;
+  }
+  
+  ul.experiences li:after {
+    /* bullets */
+    content: url("/public/assests/dot.svg");
+    position: absolute;
+    left: -28px;
+    /*adjust manually*/
+    top: 0px;
+  }
+  
+  ul.experiences li:before {
+    /* lines */
+    content: "";
+    position: absolute;
+    left: -16px;
+    /* adjust manually */
+    border-left: 1px solid black;
+    height: 100%;
+    width: 1px;
+  }
+  
+  ul.experiences li:first-child:before {
+    /* first li's line */
+    top: 6px;
+    /* moves the line down so that it disappears under the bullet. Adjust manually */
+  }
+  
+  ul.experiences li:last-child:before {
+    /* last li's line */
+    height: 6px;
+    /* shorten the line so it goes only up to the bullet. Is equal to first-child:before's top */
+  }
+  
+  
+  .experiences{
+    text-align: left;
+  }
+
+  .experiences-sec{
+    background: #fff;
+    padding: 60px 0 15px;
+    box-shadow: 0 20px 40px -5px rgb(66 66 66 / 70%);
+    border-radius: 33px;
+  }
+
+  .what{
+    color: var(--purplecolor);
+    font-size: 24px;
+  }
+  .when-where{
+    color: #8d8d8d;
+    font-size: 18px;
+  }
+
+  .dot .description{
+    font-size: 16px;
+    margin-top: 33px;
+    color: #030217;
+  }
+
+  .where{
+    color: #030217e0;
+    border-right: 2px solid var(--purplecolor);
+  }
+  .when{
+    margin-left: 12px;
+  }
+
+  .feedback-link{
+    margin-left: 3rem;
+  }
+  .feedback-link:hover {
+    animation: swell 300ms ease-in-out;
+}
+
+
+@media screen and (min-width: 1435px) {
+  ul.experiences li:after {
+    /* bullets */
+    content: url("/public/assests/dot.svg");
+    position: absolute;
+    left: -31px;
+    /*adjust manually*/
+    top: -3px;
+  }
+  
+  ul.experiences li:before {
+    /* lines */
+    content: "";
+    position: absolute;
+    left: -18px;
+    /* adjust manually */
+    border-left: 1px solid black;
+    height: 100%;
+    width: 1px;
+  }
+}
+
+.job-img{
+  float: right;
+}
+
+
+
+
+
+@media screen and (max-width: 1023px) {
+  .experiences-sec{
+    margin-left: 21px;
+  }
+  }

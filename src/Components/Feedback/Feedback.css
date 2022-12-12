@@ -1,0 +1,32 @@
+.feedback-sec{
+    margin: 10vh auto;
+    background: #fff;
+    box-shadow: 0 20px 40px -5px rgb(66 66 66 / 70%);
+    padding: 64px 50px;
+    border-radius: 15px;
+    width: 75%;
+}
+
+.carousel .thumbs-wrapper {
+    display: none;
+}
+.carousel.carousel-slider .control-arrow:hover {
+    background: transparent;
+}
+.carousel .control-prev.control-arrow:before {
+    border-right: 8px solid #706aec;
+}
+.carousel .control-next.control-arrow:before {
+    border-left: 8px solid #706aec;
+}
+.carousel .slider {
+    margin-bottom: 75px;
+}
+.carousel * {
+    box-sizing: border-box;
+    align-self: center;
+}
+
+.carousel .control-dots .dot {
+    background: #706aecf5;
+}

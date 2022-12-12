@@ -1,0 +1,55 @@
+{
+	"gallery": [
+  	{
+    	"id": 0,
+      "name": "Cayan",
+      "desc": " Designed and developed a SPA oil company website that includes home page, about us page, careers page, services pages, contact form, and admin panal to control and update everything showing in the website",
+      "tags": ["ReactJS", "HTML", "CSS", "Bootstrap"],
+      "src": "./assests/Cayan-Screenshot.png",
+      "href":"http://cayan-co.com/"
+    },
+    {
+    	"id": 1,
+      "name": "Njka",
+      "desc": "Designed and coded Beauty Center project with a contact form.",
+      "tags": ["HTML", "CSS", "Bootstrap", "PHP"],
+      "src": "./assests/Njka-Screenshot.png",
+      "href":"http://njka.net/"
+    },
+  
+    {
+    	"id": 2,
+      "name": "Mess app",
+      "desc": "Designed and coded social network user interface",
+      "tags": ["HTML", "CSS", "Bootstrap", "PHP"],
+      "src": "./assests/messapp-Screenshot.png",
+      "href":"https://messapp.net/"
+    },
+    {
+    	"id": 3,
+      "name": "Renty",
+      "desc": "Website To Rent Or Host Properties that has a user login and registration feature, landing page, home page, details page, profile page..",
+      "tags": ["ReactJS", "HTML", "CSS", "Bootstrap"],
+      "src": "./assests/Renty-Screenshot.png",
+      "href":"https://shroouk.github.io/Renty/"
+    },
+    {
+    	"id": 4,
+      "name": "IVA",
+      "desc": "Designed and developed Arabic Dataset Collection.",
+      "tags": ["HTML", "CSS", "Bootstrap","Javascript"],
+      "src": "./assests/iva-Screenshot.png",
+      "href":"https://shroouk.github.io/IVA-Dataset-Collection-Page/Layout2/templates/IVA.html"
+    },
+    {
+      "id": 5,
+      "name": "Pet Shop",
+      "desc": "Responsive Pet Shop Landing Page (PSD to HTML).",
+      "tags": ["HTML", "CSS", "Bootstrap"],
+      "src": "./assests/petshop.png",
+      "href":"https://shroouk.github.io/pet-shop-landing-page-task/"
+    }
+    
+    
+  ]
+}

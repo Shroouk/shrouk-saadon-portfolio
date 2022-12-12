@@ -1,0 +1,18 @@
+
+#cursor {
+    border-left: 0.1em solid #706aec;
+    -webkit-animation: blink 0.7s steps(1) infinite;
+            animation: blink 0.7s steps(1) infinite;
+  }
+  
+  @-webkit-keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+  }
+  
+  @keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+  }
